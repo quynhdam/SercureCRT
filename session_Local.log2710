@@ -1,0 +1,414 @@
+﻿﻿quynh-inspiron-3650-27-10-09:31:27--root@quynh-Inspiron-3650:/root# ifconfig > /home/quynh/OutputOfCommand/Command_01_Results.txt
+quynh-inspiron-3650-27-10-09:31:27--echo $s
+quynh-inspiron-3650-27-10-09:31:27--
+quynh-inspiron-3650-27-10-09:31:27--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-09:31:27--root@quynh-Inspiron-3650:/root# grep -r "inet addr" /home/quynh/OutputOfCommand/Command_01_Results.txt | cut -d ":" -f 2 | cut -d " " -f 1 > /home/quynh/OutputOfCommand/IP_Local
+quynh-inspiron-3650-27-10-09:31:27--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-09:31:27--root@quynh-Inspiron-3650:/root# cat /home/quynh/LogOutputOfSpecificCommand/Command_01_Results.txt | cut -d ' ' -f 2 > /home/quynh/OutputOfCommand/IP_Board.txt
+quynh-inspiron-3650-27-10-09:31:27--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-09:31:27--root@quynh-Inspiron-3650:/root# echo $s
+quynh-inspiron-3650-27-10-09:31:27--
+quynh-inspiron-3650-27-10-09:31:27--root@quynh-Inspiron-3650:/root# 
+﻿﻿quynh-inspiron-3650-27-10-09:43:15--ifconfig > /home/quynh/OutputOfCommand/Command_01_Results.txt
+quynh-inspiron-3650-27-10-09:43:15--
+quynh-inspiron-3650-27-10-09:43:15--grep -r "inet addr" /home/quynh/OutputOfCommand/Command_01_Results.txt | cut -d ":" -f 2 | cut -d " " -f 1 > /home/quynh/OutputOfCommand/IP_Local
+quynh-inspiron-3650-27-10-09:43:15--
+quynh-inspiron-3650-27-10-09:43:15--cat /home/quynh/LogOutputOfSpecificCommand/Command_01_Results.txt | cut -d ' ' -f 2 > /home/quynh/OutputOfCommand/IP_Board.txt
+quynh-inspiron-3650-27-10-09:43:15--
+quynh-inspiron-3650-27-10-09:43:15--echo $s
+quynh-inspiron-3650-27-10-09:43:15--echo Success = $s, False = $fl
+quynh-inspiron-3650-27-10-09:43:15--root@quynh-Inspiron-3650:/root# ifconfig > /home/quynh/OutputOfCommand/Command_01_Results.txt
+quynh-inspiron-3650-27-10-09:43:15--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-09:43:15--root@quynh-Inspiron-3650:/root# grep -r "inet addr" /home/quynh/OutputOfCommand/Command_01_Results.txt | cut -d ":" -f 2 | cut -d " " -f 1 > /home/quynh/OutputOfCommand/IP_Local
+quynh-inspiron-3650-27-10-09:43:15--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-09:43:15--root@quynh-Inspiron-3650:/root# cat /home/quynh/LogOutputOfSpecificCommand/Command_01_Results.txt | cut -d ' ' -f 2 > /home/quynh/OutputOfCommand/IP_Board.txt
+quynh-inspiron-3650-27-10-09:43:15--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-09:43:15--root@quynh-Inspiron-3650:/root# echo $s
+quynh-inspiron-3650-27-10-09:43:15--
+quynh-inspiron-3650-27-10-09:43:15--root@quynh-Inspiron-3650:/root# echo Success = $s, False = $fl
+quynh-inspiron-3650-27-10-09:43:15--Success = , False =
+﻿﻿quynh-inspiron-3650-27-10-09:50:07--root@quynh-Inspiron-3650:/root# ifconfig > /home/quynh/OutputOfCommand/Command_01_Results.txt
+quynh-inspiron-3650-27-10-09:50:07--
+quynh-inspiron-3650-27-10-09:50:07--
+quynh-inspiron-3650-27-10-09:50:07--
+quynh-inspiron-3650-27-10-09:50:07--echo Success = "$s", False = "$fl"
+quynh-inspiron-3650-27-10-09:50:07--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-09:50:07--root@quynh-Inspiron-3650:/root# grep -r "inet addr" /home/quynh/OutputOfCommand/Command_01_Results.txt | cut -d ":" -f 2 | cut -d " " -f 1 > /home/quynh/OutputOfCommand/IP_Local
+quynh-inspiron-3650-27-10-09:50:07--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-09:50:07--root@quynh-Inspiron-3650:/root# cat /home/quynh/LogOutputOfSpecificCommand/Command_01_Results.txt | cut -d ' ' -f 2 > /home/quynh/OutputOfCommand/IP_Board.txt
+quynh-inspiron-3650-27-10-09:50:07--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-09:50:07--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-09:50:07--root@quynh-Inspiron-3650:/root# echo Success = "$s", False = "$fl"
+quynh-inspiron-3650-27-10-09:50:07--Success = , False = 
+﻿﻿quynh-inspiron-3650-27-10-09:58:42--root@quynh-Inspiron-3650:/root# ifconfig > /home/quynh/OutputOfCommand/Command_01_Results.txt
+quynh-inspiron-3650-27-10-09:58:42--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-09:58:42--root@quynh-Inspiron-3650:/root# grep -r "inet addr" /home/quynh/OutputOfCommand/Command_01_Results.txt | cut -d ":" -f 2 | cut -d " " -f 1 > /home/quynh/OutputOfCommand/IP_Local
+quynh-inspiron-3650-27-10-09:58:42--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-09:58:42--root@quynh-Inspiron-3650:/root# cat /home/quynh/LogOutputOfSpecificCommand/Command_01_Results.txt | cut -d ' ' -f 2 > /home/quynh/OutputOfCommand/IP_Board.txt
+quynh-inspiron-3650-27-10-09:58:42--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-09:58:42--root@quynh-Inspiron-3650:/root# s=0f=0s=$s+1
+quynh-inspiron-3650-27-10-09:58:42--root@quynh-Inspiron-3650:/root# echo Success = '$s', False = '$fl'
+quynh-inspiron-3650-27-10-09:58:42--Success = $s, False = $fl
+﻿﻿quynh-inspiron-3650-27-10-10:03:39--root@quynh-Inspiron-3650:/root# ls
+quynh-inspiron-3650-27-10-10:03:39--snap  test.txt
+﻿quynh-inspiron-3650-27-10-10:06:03--root@quynh-Inspiron-3650:/root# ifconfig > /home/quynh/OutputOfCommand/Command_01_Results.txt
+quynh-inspiron-3650-27-10-10:06:03--
+quynh-inspiron-3650-27-10-10:06:03--
+quynh-inspiron-3650-27-10-10:06:03--s=0
+quynh-inspiron-3650-27-10-10:06:03--f=0
+quynh-inspiron-3650-27-10-10:06:03--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-10:06:03--root@quynh-Inspiron-3650:/root# grep -r "inet addr" /home/quynh/OutputOfCommand/Command_01_Results.txt | cut -d ":" -f 2 | cut -d " " -f 1 > /home/quynh/OutputOfCommand/IP_Local
+quynh-inspiron-3650-27-10-10:06:03--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-10:06:03--root@quynh-Inspiron-3650:/root# cat /home/quynh/LogOutputOfSpecificCommand/Command_01_Results.txt | cut -d ' ' -f 2 > /home/quynh/OutputOfCommand/IP_Board.txt
+quynh-inspiron-3650-27-10-10:06:03--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-10:06:03--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-10:06:03--root@quynh-Inspiron-3650:/root# s=0
+quynh-inspiron-3650-27-10-10:06:03--root@quynh-Inspiron-3650:/root# f=0
+quynh-inspiron-3650-27-10-10:06:03--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-10:06:03--root@quynh-Inspiron-3650:/root# s=$s+1
+quynh-inspiron-3650-27-10-10:06:03--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-10:06:03--root@quynh-Inspiron-3650:/root# echo Success = '$s', False = '$fl'
+quynh-inspiron-3650-27-10-10:06:03--Success = $s, False = $fl
+﻿quynh-inspiron-3650-27-10-10:08:01--root@quynh-Inspiron-3650:/root# ls
+quynh-inspiron-3650-27-10-10:08:01--snap  test.txt
+quynh-inspiron-3650-27-10-10:08:01--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-10:08:01--root@quynh-Inspiron-3650:/root# s=0
+quynh-inspiron-3650-27-10-10:08:01--root@quynh-Inspiron-3650:/root# f=0
+quynh-inspiron-3650-27-10-10:08:04--root@quynh-Inspiron-3650:/root# echo $s
+quynh-inspiron-3650-27-10-10:08:04--0
+quynh-inspiron-3650-27-10-10:08:04--root@quynh-Inspiron-3650:/root# 
+﻿quynh-inspiron-3650-27-10-10:08:29--root@quynh-Inspiron-3650:/root# ls
+quynh-inspiron-3650-27-10-10:08:29--snap  test.txt
+quynh-inspiron-3650-27-10-10:08:29--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-10:08:29--root@quynh-Inspiron-3650:/root# s=0
+quynh-inspiron-3650-27-10-10:08:29--root@quynh-Inspiron-3650:/root# f=0
+quynh-inspiron-3650-27-10-10:08:29--root@quynh-Inspiron-3650:/root# echo $s
+quynh-inspiron-3650-27-10-10:08:29--0
+﻿quynh-inspiron-3650-27-10-10:16:22--root@quynh-Inspiron-3650:/root# ls
+quynh-inspiron-3650-27-10-10:16:22--snap  test.txt
+quynh-inspiron-3650-27-10-10:16:22--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-10:16:22--root@quynh-Inspiron-3650:/root# s=0
+quynh-inspiron-3650-27-10-10:16:22--root@quynh-Inspiron-3650:/root# s=$((s+1))
+quynh-inspiron-3650-27-10-10:16:22--root@quynh-Inspiron-3650:/root# echo $s
+quynh-inspiron-3650-27-10-10:16:22--1
+quynh-inspiron-3650-27-10-10:16:49--root@quynh-Inspiron-3650:/root# ls
+quynh-inspiron-3650-27-10-10:16:49--
+quynh-inspiron-3650-27-10-10:16:49--s=0
+quynh-inspiron-3650-27-10-10:16:49--s=` expr $s + 1`
+quynh-inspiron-3650-27-10-10:16:49--echo $s
+quynh-inspiron-3650-27-10-10:16:49--snap  test.txt
+quynh-inspiron-3650-27-10-10:16:49--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-10:16:49--root@quynh-Inspiron-3650:/root# s=0
+quynh-inspiron-3650-27-10-10:16:49--root@quynh-Inspiron-3650:/root# s=` expr $s + 1`
+quynh-inspiron-3650-27-10-10:16:49--root@quynh-Inspiron-3650:/root# echo $s
+quynh-inspiron-3650-27-10-10:16:49--1
+﻿﻿quynh-inspiron-3650-27-10-10:22:22--root@quynh-Inspiron-3650:/root# ifconfig > /home/quynh/OutputOfCommand/Command_01_Results.txt
+quynh-inspiron-3650-27-10-10:22:22--echo Success = $s, False = $fl
+quynh-inspiron-3650-27-10-10:22:22--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-10:22:22--root@quynh-Inspiron-3650:/root# grep -r "inet addr" /home/quynh/OutputOfCommand/Command_01_Results.txt | cut -d ":" -f 2 | cut -d " " -f 1 > /home/quynh/OutputOfCommand/IP_Local
+quynh-inspiron-3650-27-10-10:22:22--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-10:22:22--root@quynh-Inspiron-3650:/root# cat /home/quynh/LogOutputOfSpecificCommand/Command_01_Results.txt | cut -d ' ' -f 2 > /home/quynh/OutputOfCommand/IP_Board.txt
+quynh-inspiron-3650-27-10-10:22:22--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-10:22:22--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-10:22:22--root@quynh-Inspiron-3650:/root# s=0
+quynh-inspiron-3650-27-10-10:22:22--root@quynh-Inspiron-3650:/root# f=0
+quynh-inspiron-3650-27-10-10:22:22--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-10:22:22--root@quynh-Inspiron-3650:/root# s=$((s+1))
+quynh-inspiron-3650-27-10-10:22:22--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-10:22:22--root@quynh-Inspiron-3650:/root# echo Success = $s, False = $fl
+quynh-inspiron-3650-27-10-10:22:22--Success = 1, False =
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿quynh-inspiron-3650-27-10-11:47:43--root@quynh-Inspiron-3650:/root# ifconfig > /home/quynh/OutputOfCommand/Command_01_Results.txt
+quynh-inspiron-3650-27-10-11:47:43--
+quynh-inspiron-3650-27-10-11:47:43--
+quynh-inspiron-3650-27-10-11:47:43--cat /home/quynh/LogOutputOfSpecificCommand/Command_01_Results.txt | cut -d ' ' -f 2 > /home/quynh/OutputOfCommand/IP_Board.txt
+quynh-inspiron-3650-27-10-11:47:43--
+quynh-inspiron-3650-27-10-11:47:43--
+quynh-inspiron-3650-27-10-11:47:43--s=0
+quynh-inspiron-3650-27-10-11:47:43--fl=0
+quynh-inspiron-3650-27-10-11:47:43--
+quynh-inspiron-3650-27-10-11:47:43--s=$((s+1))
+quynh-inspiron-3650-27-10-11:47:43--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-11:47:43--root@quynh-Inspiron-3650:/root# grep -r "inet addr" /home/quynh/OutputOfCommand/Command_01_Results.txt | cut -d ":" -f 2 | cut -d " " -f 1 > /home/quynh/OutputOfCommand/IP_Local
+quynh-inspiron-3650-27-10-11:47:43--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-11:47:43--root@quynh-Inspiron-3650:/root# cat /home/quynh/LogOutputOfSpecificCommand/Command_01_Results.txt | cut -d ' ' -f 2 > /home/quynh/OutputOfCommand/IP_Board.txt
+quynh-inspiron-3650-27-10-11:47:43--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-11:47:43--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-11:47:43--root@quynh-Inspiron-3650:/root# s=0
+quynh-inspiron-3650-27-10-11:47:43--root@quynh-Inspiron-3650:/root# fl=0
+quynh-inspiron-3650-27-10-11:47:43--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-11:47:43--root@quynh-Inspiron-3650:/root# s=$((s+1))
+quynh-inspiron-3650-27-10-11:47:43--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-11:47:43--root@quynh-Inspiron-3650:/root# echo Success = $s, False = $fl
+quynh-inspiron-3650-27-10-11:47:43--Success = 1, False = 0
+﻿quynh-inspiron-3650-27-10-13:08:43--root@quynh-Inspiron-3650:/root# Pass = 0
+quynh-inspiron-3650-27-10-13:08:43--Fail = 0
+quynh-inspiron-3650-27-10-13:08:43--Retry = 1
+quynh-inspiron-3650-27-10-13:08:43--ls
+quynh-inspiron-3650-27-10-13:08:43--
+quynh-inspiron-3650-27-10-13:08:43--s=0
+quynh-inspiron-3650-27-10-13:08:43--s=` expr $s + 1`
+quynh-inspiron-3650-27-10-13:08:43--echo $s
+quynh-inspiron-3650-27-10-13:08:44--echo  Retry: $Retry -------- Pass: $Pass -------- Fail: $FailNo command 'Pass' found, did you mean:
+quynh-inspiron-3650-27-10-13:08:44-- Command 'pass' from package 'pass' (universe)
+quynh-inspiron-3650-27-10-13:08:44-- Command 'sass' from package 'ruby-sass' (universe)
+quynh-inspiron-3650-27-10-13:08:44-- Command 'ass' from package 'irpas' (multiverse)
+quynh-inspiron-3650-27-10-13:08:44--Pass: command not found
+quynh-inspiron-3650-27-10-13:08:44--root@quynh-Inspiron-3650:/root# Fail = 0
+quynh-inspiron-3650-27-10-13:08:44--No command 'Fail' found, did you mean:
+quynh-inspiron-3650-27-10-13:08:44-- Command 'mail' from package 'mailutils' (universe)
+quynh-inspiron-3650-27-10-13:08:44-- Command 'tail' from package 'coreutils' (main)
+quynh-inspiron-3650-27-10-13:08:44-- Command 'qail' from package 'qmail' (universe)
+quynh-inspiron-3650-27-10-13:08:44-- Command 'sail' from package 'bsdgames' (universe)
+quynh-inspiron-3650-27-10-13:08:44--Fail: command not found
+quynh-inspiron-3650-27-10-13:08:44--root@quynh-Inspiron-3650:/root# Retry = 1
+quynh-inspiron-3650-27-10-13:08:44--Retry: command not found
+quynh-inspiron-3650-27-10-13:08:44--root@quynh-Inspiron-3650:/root# ls
+quynh-inspiron-3650-27-10-13:08:44--snap  test.txt
+quynh-inspiron-3650-27-10-13:08:44--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-13:08:44--root@quynh-Inspiron-3650:/root# s=0
+quynh-inspiron-3650-27-10-13:08:44--root@quynh-Inspiron-3650:/root# s=` expr $s + 1`
+quynh-inspiron-3650-27-10-13:08:44--root@quynh-Inspiron-3650:/root# echo $s
+quynh-inspiron-3650-27-10-13:08:44--1
+quynh-inspiron-3650-27-10-13:09:35--root@quynh-Inspiron-3650:/root# echo  Retry: $Retry -------- Pass: $Pass -------- Fail: $FailPass = 0
+quynh-inspiron-3650-27-10-13:09:35--Retry: -------- Pass: -------- Fail: = 0
+quynh-inspiron-3650-27-10-13:09:35--root@quynh-Inspiron-3650:/root# Fail = 0
+quynh-inspiron-3650-27-10-13:09:35--Retry = 1
+quynh-inspiron-3650-27-10-13:09:35--ls
+quynh-inspiron-3650-27-10-13:09:35--
+quynh-inspiron-3650-27-10-13:09:35--s=0
+quynh-inspiron-3650-27-10-13:09:35--s=` expr $s + 1`
+quynh-inspiron-3650-27-10-13:09:35--echo $s
+quynh-inspiron-3650-27-10-13:09:35--echo  Retry: $Retry --------> Pass: $Pass --------> Fail: $FailNo command 'Fail' found, did you mean:
+quynh-inspiron-3650-27-10-13:09:35-- Command 'sail' from package 'bsdgames' (universe)
+quynh-inspiron-3650-27-10-13:09:35-- Command 'qail' from package 'qmail' (universe)
+quynh-inspiron-3650-27-10-13:09:35-- Command 'mail' from package 'mailutils' (universe)
+quynh-inspiron-3650-27-10-13:09:35-- Command 'tail' from package 'coreutils' (main)
+quynh-inspiron-3650-27-10-13:09:35--Fail: command not found
+quynh-inspiron-3650-27-10-13:09:35--root@quynh-Inspiron-3650:/root# Retry = 1
+quynh-inspiron-3650-27-10-13:09:35--Retry: command not found
+quynh-inspiron-3650-27-10-13:09:35--root@quynh-Inspiron-3650:/root# ls
+quynh-inspiron-3650-27-10-13:09:35--snap  test.txt
+quynh-inspiron-3650-27-10-13:09:35--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-13:09:35--root@quynh-Inspiron-3650:/root# s=0
+quynh-inspiron-3650-27-10-13:09:35--root@quynh-Inspiron-3650:/root# s=` expr $s + 1`
+quynh-inspiron-3650-27-10-13:09:35--root@quynh-Inspiron-3650:/root# echo $s
+quynh-inspiron-3650-27-10-13:09:35--1
+quynh-inspiron-3650-27-10-13:10:05--root@quynh-Inspiron-3650:/root# echo  Retry: $Retry --------> Pass: $Pass --------> Fail: $FailPass=0
+quynh-inspiron-3650-27-10-13:10:05--Fail=0
+quynh-inspiron-3650-27-10-13:10:05--Retry=1root@quynh-Inspiron-3650:/root# Fail=0
+quynh-inspiron-3650-27-10-13:10:05--root@quynh-Inspiron-3650:/root# Retry=1
+quynh-inspiron-3650-27-10-13:10:05--root@quynh-Inspiron-3650:/root# ls
+quynh-inspiron-3650-27-10-13:10:05--Fail:  Pass:  snap  test.txt
+quynh-inspiron-3650-27-10-13:10:05--
+quynh-inspiron-3650-27-10-13:10:05--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-13:10:05--root@quynh-Inspiron-3650:/root# s=0
+quynh-inspiron-3650-27-10-13:10:05--root@quynh-Inspiron-3650:/root# s=` expr $s + 1`
+quynh-inspiron-3650-27-10-13:10:05--root@quynh-Inspiron-3650:/root# echo $s
+quynh-inspiron-3650-27-10-13:10:05--1
+quynh-inspiron-3650-27-10-13:10:09--root@quynh-Inspiron-3650:/root# echo  Retry: $Retry --------> Pass: $Pass --------> Fail: $Fail
+quynh-inspiron-3650-27-10-13:10:09--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-13:10:54--root@quynh-Inspiron-3650:/root# Pass=0
+quynh-inspiron-3650-27-10-13:10:54--root@quynh-Inspiron-3650:/root# Fail=0
+quynh-inspiron-3650-27-10-13:10:54--root@quynh-Inspiron-3650:/root# Retry=1
+quynh-inspiron-3650-27-10-13:10:54--root@quynh-Inspiron-3650:/root# ls
+quynh-inspiron-3650-27-10-13:10:54--Fail:  Pass:  snap  test.txt
+quynh-inspiron-3650-27-10-13:10:54--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-13:10:54--root@quynh-Inspiron-3650:/root# s=0
+quynh-inspiron-3650-27-10-13:10:54--root@quynh-Inspiron-3650:/root# s=` expr $s + 1`
+quynh-inspiron-3650-27-10-13:10:54--root@quynh-Inspiron-3650:/root# echo S=$s
+quynh-inspiron-3650-27-10-13:10:54--S=1
+quynh-inspiron-3650-27-10-13:11:20--root@quynh-Inspiron-3650:/root# echo  Retry: $Retry --------> Pass: $Pass --------> Fail: $FailPass=0
+quynh-inspiron-3650-27-10-13:11:20--root@quynh-Inspiron-3650:/root# Fail=0
+quynh-inspiron-3650-27-10-13:11:20--root@quynh-Inspiron-3650:/root# Retry=1
+quynh-inspiron-3650-27-10-13:11:20--root@quynh-Inspiron-3650:/root# ls
+quynh-inspiron-3650-27-10-13:11:20--Fail:  Pass:  snap  test.txt
+quynh-inspiron-3650-27-10-13:11:20--
+quynh-inspiron-3650-27-10-13:11:20--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-13:11:20--root@quynh-Inspiron-3650:/root# s=0
+quynh-inspiron-3650-27-10-13:11:20--root@quynh-Inspiron-3650:/root# s=` expr $s + 1`
+quynh-inspiron-3650-27-10-13:11:20--root@quynh-Inspiron-3650:/root# echo S=$s
+quynh-inspiron-3650-27-10-13:11:20--S=1
+quynh-inspiron-3650-27-10-13:11:22--root@quynh-Inspiron-3650:/root# echo  Retry=$Retry --------> Pass=$Pass --------> Fail=$Fail
+quynh-inspiron-3650-27-10-13:11:22--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-13:12:10--root@quynh-Inspiron-3650:/root# Pass=0
+quynh-inspiron-3650-27-10-13:12:10--root@quynh-Inspiron-3650:/root# Fail=0
+quynh-inspiron-3650-27-10-13:12:10--root@quynh-Inspiron-3650:/root# Retry=1
+quynh-inspiron-3650-27-10-13:12:10--root@quynh-Inspiron-3650:/root# ls
+quynh-inspiron-3650-27-10-13:12:10--Fail:  Fail=0  Pass:  Pass=0  snap  test.txt
+quynh-inspiron-3650-27-10-13:12:10--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-13:12:10--root@quynh-Inspiron-3650:/root# s=0
+quynh-inspiron-3650-27-10-13:12:10--root@quynh-Inspiron-3650:/root# s=` expr $s + 1`
+quynh-inspiron-3650-27-10-13:12:10--root@quynh-Inspiron-3650:/root# echo S=$s
+quynh-inspiron-3650-27-10-13:12:10--S=1
+quynh-inspiron-3650-27-10-13:12:12--root@quynh-Inspiron-3650:/root# echo  Retry: $Retry --------> Pass: $Pass --------> Fail: $Fail
+quynh-inspiron-3650-27-10-13:12:12--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-13:12:39--root@quynh-Inspiron-3650:/root# Pass=0
+quynh-inspiron-3650-27-10-13:12:39--root@quynh-Inspiron-3650:/root# Fail=0
+quynh-inspiron-3650-27-10-13:12:39--root@quynh-Inspiron-3650:/root# Retry=1
+quynh-inspiron-3650-27-10-13:12:39--root@quynh-Inspiron-3650:/root# ls
+quynh-inspiron-3650-27-10-13:12:39--Fail:  Fail=0  Pass:  Pass=0  snap  test.txt
+quynh-inspiron-3650-27-10-13:12:39--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-13:12:39--root@quynh-Inspiron-3650:/root# s=0
+quynh-inspiron-3650-27-10-13:12:39--root@quynh-Inspiron-3650:/root# s=` expr $s + 1`
+quynh-inspiron-3650-27-10-13:12:39--root@quynh-Inspiron-3650:/root# echo S=$s
+quynh-inspiron-3650-27-10-13:12:39--S=1
+quynh-inspiron-3650-27-10-13:12:39--root@quynh-Inspiron-3650:/root# echo  Retry: $Retry --------> Pass: $Pass --------> Fail: $Fail
+quynh-inspiron-3650-27-10-13:13:35--root@quynh-Inspiron-3650:/root# Pass=0
+quynh-inspiron-3650-27-10-13:13:35--root@quynh-Inspiron-3650:/root# Fail=0
+quynh-inspiron-3650-27-10-13:13:35--root@quynh-Inspiron-3650:/root# Retry=1
+quynh-inspiron-3650-27-10-13:13:35--root@quynh-Inspiron-3650:/root# ls
+quynh-inspiron-3650-27-10-13:13:35--Fail:  Fail=0  Pass:  Pass=0  snap  test.txt
+quynh-inspiron-3650-27-10-13:13:35--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-13:13:35--root@quynh-Inspiron-3650:/root# s=0
+quynh-inspiron-3650-27-10-13:13:35--root@quynh-Inspiron-3650:/root# s=` expr $s + 1`
+quynh-inspiron-3650-27-10-13:13:35--root@quynh-Inspiron-3650:/root# echo S=$s
+quynh-inspiron-3650-27-10-13:13:35--S=1
+quynh-inspiron-3650-27-10-13:13:35--root@quynh-Inspiron-3650:/root# echo  'Retry: $Retry --------> Pass: $Pass --------> Fail: $Fail'
+quynh-inspiron-3650-27-10-13:13:35--Retry: $Retry --------> Pass: $Pass --------> Fail: $Fail
+quynh-inspiron-3650-27-10-13:14:06--root@quynh-Inspiron-3650:/root# Pass=0
+quynh-inspiron-3650-27-10-13:14:06--root@quynh-Inspiron-3650:/root# Fail=0
+quynh-inspiron-3650-27-10-13:14:07--root@quynh-Inspiron-3650:/root# Retry=1
+quynh-inspiron-3650-27-10-13:14:07--root@quynh-Inspiron-3650:/root# ls
+quynh-inspiron-3650-27-10-13:14:07--Fail:  Fail=0  Pass:  Pass=0  snap  test.txt
+quynh-inspiron-3650-27-10-13:14:07--
+quynh-inspiron-3650-27-10-13:14:07--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-13:14:07--root@quynh-Inspiron-3650:/root# s=0
+quynh-inspiron-3650-27-10-13:14:07--root@quynh-Inspiron-3650:/root# s=` expr $s + 1`
+quynh-inspiron-3650-27-10-13:14:07--root@quynh-Inspiron-3650:/root# echo S=$s
+quynh-inspiron-3650-27-10-13:14:07--S=1
+quynh-inspiron-3650-27-10-13:14:07--root@quynh-Inspiron-3650:/root# echo  'Retry: '$Retry' --------> Pass: $Pass --------> Fail: $Fail'
+quynh-inspiron-3650-27-10-13:14:07--Retry: 1 --------> Pass: $Pass --------> Fail: $Fail
+quynh-inspiron-3650-27-10-13:14:49--root@quynh-Inspiron-3650:/root# Pass=0
+quynh-inspiron-3650-27-10-13:14:49--root@quynh-Inspiron-3650:/root# Fail=0
+quynh-inspiron-3650-27-10-13:14:49--root@quynh-Inspiron-3650:/root# Retry=1
+quynh-inspiron-3650-27-10-13:14:49--root@quynh-Inspiron-3650:/root# ls
+quynh-inspiron-3650-27-10-13:14:49--
+quynh-inspiron-3650-27-10-13:14:49--Fail:  Fail=0  Pass:  Pass=0  snap  test.txt
+quynh-inspiron-3650-27-10-13:14:49--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-13:14:49--root@quynh-Inspiron-3650:/root# s=0
+quynh-inspiron-3650-27-10-13:14:49--root@quynh-Inspiron-3650:/root# s=` expr $s + 1`
+quynh-inspiron-3650-27-10-13:14:49--echo S=$sroot@quynh-Inspiron-3650:/root# echo S=$s
+quynh-inspiron-3650-27-10-13:14:49--S=1
+quynh-inspiron-3650-27-10-13:14:49--root@quynh-Inspiron-3650:/root# echo  'Retry= '$Retry' --------> Pass= '$Pass' --------> Fail= '$Fail''
+quynh-inspiron-3650-27-10-13:14:49--Retry= 1 --------> Pass= 0 --------> Fail= 0
+﻿﻿﻿quynh-inspiron-3650-27-10-13:32:07--root@quynh-Inspiron-3650:/root# ifconfig > /home/quynh/OutputOfCommand/Command_01_Results.txt
+quynh-inspiron-3650-27-10-13:32:07--
+quynh-inspiron-3650-27-10-13:32:07--
+quynh-inspiron-3650-27-10-13:32:07--cat /home/quynh/LogOutputOfSpecificCommand/Command_01_Results.txt | cut -d ' ' -f 2 > /home/quynh/OutputOfCommand/IP_Board.txt
+quynh-inspiron-3650-27-10-13:32:07--
+quynh-inspiron-3650-27-10-13:32:07--
+quynh-inspiron-3650-27-10-13:32:07--
+quynh-inspiron-3650-27-10-13:32:07--Pass=$((Pass+1))
+quynh-inspiron-3650-27-10-13:32:07--
+quynh-inspiron-3650-27-10-13:32:07--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-13:32:07--root@quynh-Inspiron-3650:/root# grep -r "inet addr" /home/quynh/OutputOfCommand/Command_01_Results.txt | cut -d ":" -f 2 | cut -d " " -f 1 > /home/quynh/OutputOfCommand/IP_Local
+quynh-inspiron-3650-27-10-13:32:07--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-13:32:07--root@quynh-Inspiron-3650:/root# cat /home/quynh/LogOutputOfSpecificCommand/Command_01_Results.txt | cut -d ' ' -f 2 > /home/quynh/OutputOfCommand/IP_Board.txt
+quynh-inspiron-3650-27-10-13:32:07--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-13:32:07--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-13:32:07--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-13:32:07--root@quynh-Inspiron-3650:/root# Pass=$((Pass+1))
+quynh-inspiron-3650-27-10-13:32:07--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-13:32:07--root@quynh-Inspiron-3650:/root# echo 'Success = $Pass, False = $Fail' >> Result.txt
+﻿﻿quynh-inspiron-3650-27-10-13:39:44--root@quynh-Inspiron-3650:/root# ifconfig > /home/quynh/OutputOfCommand/Command_01_Results.txt
+quynh-inspiron-3650-27-10-13:39:44--
+quynh-inspiron-3650-27-10-13:39:44--
+quynh-inspiron-3650-27-10-13:39:44--Pass=$((Pass+1))
+quynh-inspiron-3650-27-10-13:39:44--
+quynh-inspiron-3650-27-10-13:39:44--echo 'Success = $Pass, False = $Fail' >> /home/quynh/Result.txt
+quynh-inspiron-3650-27-10-13:39:44--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-13:39:44--root@quynh-Inspiron-3650:/root# grep -r "inet addr" /home/quynh/OutputOfCommand/Command_01_Results.txt | cut -d ":" -f 2 | cut -d " " -f 1 > /home/quynh/OutputOfCommand/IP_Local
+quynh-inspiron-3650-27-10-13:39:44--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-13:39:44--root@quynh-Inspiron-3650:/root# cat /home/quynh/LogOutputOfSpecificCommand/Command_01_Results.txt | cut -d ' ' -f 2 > /home/quynh/OutputOfCommand/IP_Board.txt
+quynh-inspiron-3650-27-10-13:39:44--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-13:39:44--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-13:39:44--root@quynh-Inspiron-3650:/root# Pass=0
+quynh-inspiron-3650-27-10-13:39:44--root@quynh-Inspiron-3650:/root# Fail=0
+quynh-inspiron-3650-27-10-13:39:44--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-13:39:44--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-13:39:44--root@quynh-Inspiron-3650:/root# Pass=$((Pass+1))
+quynh-inspiron-3650-27-10-13:39:44--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-13:39:44--root@quynh-Inspiron-3650:/root# echo 'Success = $Pass, False = $Fail' >> /home/quynh/Result.txt
+quynh-inspiron-3650-27-10-13:42:50--root@quynh-Inspiron-3650:/root# Pass=0
+quynh-inspiron-3650-27-10-13:42:50--root@quynh-Inspiron-3650:/root# Fail=0
+quynh-inspiron-3650-27-10-13:42:50--root@quynh-Inspiron-3650:/root# Retry=1
+quynh-inspiron-3650-27-10-13:42:50--root@quynh-Inspiron-3650:/root# ls
+quynh-inspiron-3650-27-10-13:42:50--
+quynh-inspiron-3650-27-10-13:42:50--Fail:  Fail=0  Pass:  Pass=0  Result.txt  snap  test.txt
+quynh-inspiron-3650-27-10-13:42:50--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-13:42:50--root@quynh-Inspiron-3650:/root# s=0
+quynh-inspiron-3650-27-10-13:42:50--root@quynh-Inspiron-3650:/root# s=` expr $s + 1`
+quynh-inspiron-3650-27-10-13:42:50--echo S=$sroot@quynh-Inspiron-3650:/root# echo S=$s
+quynh-inspiron-3650-27-10-13:42:50--S=1
+quynh-inspiron-3650-27-10-13:42:50--root@quynh-Inspiron-3650:/root# echo  'Retry= '$Retry' --------> Pass= '$Pass' --------> Fail= '$Fail'' >> /home/quynh/Result.txt
+﻿﻿quynh-inspiron-3650-27-10-13:47:23--root@quynh-Inspiron-3650:/root# ifconfig > /home/quynh/OutputOfCommand/Command_01_Results.txt
+quynh-inspiron-3650-27-10-13:47:23--
+quynh-inspiron-3650-27-10-13:47:23--cat /home/quynh/LogOutputOfSpecificCommand/Command_01_Results.txt | cut -d ' ' -f 2 > /home/quynh/OutputOfCommand/IP_Board.txt
+quynh-inspiron-3650-27-10-13:47:23--
+quynh-inspiron-3650-27-10-13:47:23--
+quynh-inspiron-3650-27-10-13:47:23--Pass=0
+quynh-inspiron-3650-27-10-13:47:23--Fail=0
+quynh-inspiron-3650-27-10-13:47:23--
+quynh-inspiron-3650-27-10-13:47:23--
+quynh-inspiron-3650-27-10-13:47:23--Pass=$((Pass+1))
+quynh-inspiron-3650-27-10-13:47:23--
+quynh-inspiron-3650-27-10-13:47:23--echo 'Success = '$Pass', False = '$Fail'' >> /home/quynh/Result.txt
+quynh-inspiron-3650-27-10-13:47:23--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-13:47:23--root@quynh-Inspiron-3650:/root# grep -r "inet addr" /home/quynh/OutputOfCommand/Command_01_Results.txt | cut -d ":" -f 2 | cut -d " " -f 1 > /home/quynh/OutputOfCommand/IP_Local
+quynh-inspiron-3650-27-10-13:47:23--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-13:47:23--root@quynh-Inspiron-3650:/root# cat /home/quynh/LogOutputOfSpecificCommand/Command_01_Results.txt | cut -d ' ' -f 2 > /home/quynh/OutputOfCommand/IP_Board.txt
+quynh-inspiron-3650-27-10-13:47:23--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-13:47:23--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-13:47:23--root@quynh-Inspiron-3650:/root# Pass=0
+quynh-inspiron-3650-27-10-13:47:23--root@quynh-Inspiron-3650:/root# Fail=0
+quynh-inspiron-3650-27-10-13:47:23--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-13:47:23--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-13:47:23--root@quynh-Inspiron-3650:/root# Pass=$((Pass+1))
+quynh-inspiron-3650-27-10-13:47:23--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-13:47:23--root@quynh-Inspiron-3650:/root# echo 'Success = '$Pass', False = '$Fail'' >> /home/quynh/Result.txt
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿quynh-inspiron-3650-27-10-14:21:57--root@quynh-Inspiron-3650:/root# ifconfig > /home/quynh/OutputOfCommand/Command_01_Results.txt
+quynh-inspiron-3650-27-10-14:21:57--
+quynh-inspiron-3650-27-10-14:21:57--
+quynh-inspiron-3650-27-10-14:21:57--cat /home/quynh/LogOutputOfSpecificCommand/Command_01_Results.txt | cut -d ' ' -f 2 > /home/quynh/OutputOfCommand/IP_Board.txt
+quynh-inspiron-3650-27-10-14:21:57--
+quynh-inspiron-3650-27-10-14:21:57--
+quynh-inspiron-3650-27-10-14:21:57--Pass=0
+quynh-inspiron-3650-27-10-14:21:57--Fail=0
+quynh-inspiron-3650-27-10-14:21:57--
+quynh-inspiron-3650-27-10-14:21:57--
+quynh-inspiron-3650-27-10-14:21:57--Pass=$((Pass+1))
+quynh-inspiron-3650-27-10-14:21:57--
+quynh-inspiron-3650-27-10-14:21:57--echo 'Success = '$Pass', False = '$Fail'' >> /home/quynh/Result.txt
+quynh-inspiron-3650-27-10-14:21:57--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-14:21:57--root@quynh-Inspiron-3650:/root# grep -r "inet addr" /home/quynh/OutputOfCommand/Command_01_Results.txt | cut -d ":" -f 2 | cut -d " " -f 1 > /home/quynh/OutputOfCommand/IP_Local
+quynh-inspiron-3650-27-10-14:21:57--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-14:21:57--root@quynh-Inspiron-3650:/root# cat /home/quynh/LogOutputOfSpecificCommand/Command_01_Results.txt | cut -d ' ' -f 2 > /home/quynh/OutputOfCommand/IP_Board.txt
+quynh-inspiron-3650-27-10-14:21:57--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-14:21:57--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-14:21:57--root@quynh-Inspiron-3650:/root# Pass=0
+quynh-inspiron-3650-27-10-14:21:57--root@quynh-Inspiron-3650:/root# Fail=0
+quynh-inspiron-3650-27-10-14:21:57--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-14:21:57--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-14:21:57--root@quynh-Inspiron-3650:/root# Pass=$((Pass+1))
+quynh-inspiron-3650-27-10-14:21:57--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-14:21:57--root@quynh-Inspiron-3650:/root# echo 'Success = '$Pass', False = '$Fail'' >> /home/quynh/Result.txt
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿quynh-inspiron-3650-27-10-16:49:20--root@quynh-Inspiron-3650:/root# ifconfig > /home/quynh/OutputOfCommand/Command_01_Results.txt
+quynh-inspiron-3650-27-10-16:49:20--
+quynh-inspiron-3650-27-10-16:49:20--
+quynh-inspiron-3650-27-10-16:49:20--
+quynh-inspiron-3650-27-10-16:49:20--Pass=0root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-16:49:20--root@quynh-Inspiron-3650:/root# grep -r "inet addr" /home/quynh/OutputOfCommand/Command_01_Results.txt | cut -d ":" -f 2 | cut -d " " -f 1 > /home/quynh/OutputOfCommand/IP_Local
+quynh-inspiron-3650-27-10-16:49:20--Pass=$((Pass+1))
+quynh-inspiron-3650-27-10-16:49:20--
+quynh-inspiron-3650-27-10-16:49:20--echo 'Success = '$Pass', False = '$Fail'' >> /home/quynh/Result.txt
+quynh-inspiron-3650-27-10-16:49:20--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-16:49:20--root@quynh-Inspiron-3650:/root# cat /home/quynh/LogOutputOfSpecificCommand/Command_01_Results.txt | cut -d ' ' -f 2 > /home/quynh/OutputOfCommand/IP_Board.txt
+quynh-inspiron-3650-27-10-16:49:20--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-16:49:20--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-16:49:20--root@quynh-Inspiron-3650:/root# Pass=0
+quynh-inspiron-3650-27-10-16:49:20--root@quynh-Inspiron-3650:/root# Fail=0
+quynh-inspiron-3650-27-10-16:49:20--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-16:49:20--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-16:49:20--root@quynh-Inspiron-3650:/root# Pass=$((Pass+1))
+quynh-inspiron-3650-27-10-16:49:20--root@quynh-Inspiron-3650:/root# 
+quynh-inspiron-3650-27-10-16:49:20--root@quynh-Inspiron-3650:/root# echo 'Success = '$Pass', False = '$Fail'' >> /home/quynh/Result.txt

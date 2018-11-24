@@ -1,0 +1,22 @@
+Request: 
+	- Check DHCP function of GPON ONT
+	- Generate log file
+	- Show result pass/total
+Progess:
+	- Success 
+	- Success
+	- Fail : Can not handle loop
+	- Will update next time 
+Description: 
+	- Using SecureCRT, python language
+	- Connect ONT with PC through COM port
+	- Connect to ONT
+	- Login ONT using Login()
+	- Check exist/ not exist /etc/udhcp_lease on ONT, if not exist check again
+	- if exist, cat /etc/udhcp_lease and write to /home/quynh/LogOutputOfSpecificCommand/Command_01_Result.txt on PC
+	- Connect to PC 
+	- Get IP PC use 'ifconfig'and write to /home/quynh/OutputOfCommand/Command_01_Result.txt
+	- Cut IP from /home/quynh/OutputOfCommand/Command_01_Result.txt and write to /home/quynh/OutputOfCommand/IP_Local
+	- Cut IP from /home/quynh/LogOutputOfSpecificCommand/Command_01_Results.txt to /home/quynh/OutputOfCommand/IP_Board
+	- Compare IP on IP_Local and IP_Board.txt
+

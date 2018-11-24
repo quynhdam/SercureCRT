@@ -1,0 +1,2 @@
+serial-ttyusb0
+quynh-inspiron-3650
